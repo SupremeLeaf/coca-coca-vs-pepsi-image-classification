@@ -5,7 +5,6 @@ The data used consists of 100 training images and 20 testing images for both cla
 Given the small dataset the overall objective was to just start with a small base-line model and then get progressively larger and more complicated in order to try and improve the model's accuracy as much as possible given what we had to work with. 
 
 # Overview of Model WorkFlow
-![image]('coke_pepsi_model_workflow.png')
 
 Model_0 was a fairly simple Keras `Sequential` Model that consisted of layers: `Conv2D`, `MaxPool2d`, `Dense` `Activation` and `GlobalMaxPooling2D`. 
 
